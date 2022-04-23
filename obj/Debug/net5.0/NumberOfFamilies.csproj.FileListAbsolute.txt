@@ -1,0 +1,16 @@
+C:\Users\Luchin111\source\repos\NumberOfFamilies\bin\Debug\net5.0\NumberOfFamilies.exe
+C:\Users\Luchin111\source\repos\NumberOfFamilies\bin\Debug\net5.0\NumberOfFamilies.deps.json
+C:\Users\Luchin111\source\repos\NumberOfFamilies\bin\Debug\net5.0\NumberOfFamilies.runtimeconfig.json
+C:\Users\Luchin111\source\repos\NumberOfFamilies\bin\Debug\net5.0\NumberOfFamilies.runtimeconfig.dev.json
+C:\Users\Luchin111\source\repos\NumberOfFamilies\bin\Debug\net5.0\NumberOfFamilies.dll
+C:\Users\Luchin111\source\repos\NumberOfFamilies\bin\Debug\net5.0\NumberOfFamilies.pdb
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\NumberOfFamilies.csproj.AssemblyReference.cache
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\NumberOfFamilies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\NumberOfFamilies.AssemblyInfoInputs.cache
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\NumberOfFamilies.AssemblyInfo.cs
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\NumberOfFamilies.csproj.CoreCompileInputs.cache
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\NumberOfFamilies.dll
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\refint\NumberOfFamilies.dll
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\NumberOfFamilies.pdb
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\NumberOfFamilies.genruntimeconfig.cache
+C:\Users\Luchin111\source\repos\NumberOfFamilies\obj\Debug\net5.0\ref\NumberOfFamilies.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aYFEXED2OlPtW28j5NHpeoaF4s92x1HGrX09eu4pSDlJEqak+x8r6uV1O+LVcq6+lEOY3+7IX96e808jyyj4qQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luchin111\\source\\repos\\NumberOfFamilies\\NumberOfFamilies.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luchin111\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
