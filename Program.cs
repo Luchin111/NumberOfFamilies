@@ -80,60 +80,61 @@ namespace NumberOfFamilies
             {
                 list.Add(new Tuple<string, string>(name1, name2));
             }
-            DistinctFamilies(list);
+            var count = DistinctFamilies(list);
+            Console.WriteLine("Number of Families : " + count);
         }
         private int DistinctFamilies(List<Tuple<string, string>> relations)
         {
-            var fam = 1;
-            var aux = 0;
-            int[] myArray = new int[relations.Count];
-            var count = 0;
-            for (var i = 0; i < relations.Count; i++)
+            string[] v1=new string[relations.Count];
+            string[] v2 = new string[relations.Count];
+            int[] v3 = new int[relations.Count];
+            int[] v4 = new int[relations.Count];
+            for (int i = 0; i < relations.Count; i++)
             {
-                if (i == 0)
-                {
-                    myArray[i] = fam;
-                }
-                else
-                {
-                    foreach (var rel in relations)
-                    {
-                        if (rel.Item1 == relations[i].Item1 || rel.Item1 == relations[i].Item2 || rel.Item2 == relations[i].Item1 || rel.Item2 == relations[i].Item2)
-                        {
-                            aux = 1;
-                            if(myArray[i] == 0)
-                            {
-                                
-                                myArray[relations.IndexOf(rel)] = myArray[i-1];
-                            }
-                            
-                        }
-                        
-                    }
-                    if (aux != 0)
-                    {
-                        fam++;
-                        aux = 0;
-                    }
-                }
-                
+                v1[i]=relations[i].Item1;
+                v3[i] = 0;
             }
-            foreach (var a in myArray)
+            for (int i = 0; i < relations.Count; i++)
             {
-                Console.WriteLine(a);
+                v2[i] = relations[i].Item2;
+                v4[i] = 0;
             }
+            
 
-            var nombre1 = relations[0].Item1;
-            var nombre2 = relations[0].Item2;                     
-            relations.Sort();
-            foreach (var rel in relations)
+            string nombre1 = relations[0].Item1;
+
+            int a = 0;
+            int b = 0;
+            int c = 0;
+
+            while (v3[a] == 0)
             {
-                Console.WriteLine(rel);
+
+                for (int i = 0; i <= v1.Length-1; i++)
+                {
+
+                    if (v1[i] == nombre1)
+                    {
+                        v3[i] = 1;
+                        v4[i] = 1;
+                    }
+                    if (v2[i] == nombre1)
+                    {
+                        v4[i] = 1;
+                    }
+
+
+
+                }
+                for (int k = 0; k < v1.Length - 2; k++)
+                {
+                    if (v3[k] == 0 && v4[k] == 0) { nombre1 = v1[k]; a = k; c = c + 1; break; }
+
+                }
+
+
             }
-            HashSet<Tuple<string, string>> hashWithoutDuplicates = new HashSet<Tuple<string, string>>(relations);
-            List<Tuple<string, string>> listWithoutDuplicates = hashWithoutDuplicates.ToList();
-            ////print(listWithoutDuplicates);
-            return count;
+            return c;
         }
         public void print(List<Tuple<string, string>> relations)
         {
